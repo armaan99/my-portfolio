@@ -1,0 +1,29 @@
+.banner {
+    height: 100vh;
+    width: 80vw;
+    padding: 0 10vw;
+    background: linear-gradient(to right, #17d396, #07f7f7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-greeting {
+    font-size: 120px;
+    font-weight: 0;
+    width: fit-content;
+    position: relative;
+}
+
+.banner-intro {
+    font-size: 80px;
+    width: fit-content;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.banner-role {
+    font-size: 30px;
+    letter-spacing: calc(1.1 * 0.1em);
+}

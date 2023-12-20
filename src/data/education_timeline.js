@@ -1,0 +1,38 @@
+export const educationTimelineElements = [
+  {
+    course: "Master of Technology",
+    specialization: "Artificial Intelligence",
+    subjects: "",
+    institute: "Delhi Technological University",
+    location: "New Delhi, DL",
+    duration: "AUG 2023 - Present",
+    grade: "NA",
+  },
+  {
+    course: "Bachelor of Technology",
+    specialization: "Computer Science & Engineering",
+    subjects: "",
+    institute: "Medi-Caps University",
+    location: "Indore, MP",
+    duration: "AUG 2018 - MAY 2022",
+    grade: "9.44 CGPA",
+  },
+  {
+    course: "XII - CBSE",
+    specialization: "",
+    subjects: "Mathematics, Physics, Chemistry, English",
+    institute: "Spring Valley Public School",
+    location: "Indore, MP",
+    duration: "APR 2017 - MAR 2018",
+    grade: "81.8 %",
+  },
+  {
+    course: "X - CBSE",
+    specialization: "",
+    subjects: "Mathematics, Science, Social Sc., English, Sanskrit",
+    institute: "Shree Bhavan's Bharti Public School",
+    location: "Bhopal, MP",
+    duration: "APR 2015 - MAR 2016",
+    grade: "10 CGPA",
+  },
+];

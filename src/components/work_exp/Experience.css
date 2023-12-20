@@ -1,0 +1,139 @@
+.experience {
+    background-color: #22252c;
+    height: auto;
+    width: 80vw;
+    padding: 10vh 10vw 10vh;
+    color: white;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: center;
+}
+
+.exp-header {
+    background: linear-gradient(to right, #17d396, #07f7f7);
+    width: fit-content;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.experience-body {
+    display: flex;
+    justify-content: center;
+}
+
+.timeline-list {
+    width: 80vw;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exp-timeline-head {
+    height: 65px;
+    width: 65px;
+    background-color: #22252c;
+    border-radius: 50%;
+    border: 2px solid #00d7bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    z-index: 10;
+}
+
+.exp-timeline-head img{
+    height: 40%;
+    aspect-ratio: 1;
+}
+
+.exp-timeline-tail {
+    height: 15px;
+    width: 15px;
+    background-color: #00d7bb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 5%;
+}
+
+.timeline-item {
+    padding: 60px 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+}
+
+.exp-left-section {
+    width: 35vw;
+    text-align: end;
+    margin-top: -10px;
+}
+
+.progress-line {
+    height: 150%;
+    width: 4px;
+    position: relative;
+    background-color: #00d7bb;
+    padding: 50px 0;
+    top: -120%;
+}
+
+.job-progress-mark {
+    height: 36px;
+    width: 36px;
+    background-color: #22252c;
+    border-radius: 50%;
+    border: 2px solid #00d7bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 48%;
+    left: -18px;
+}
+
+.design-dot {
+    height: 10px;
+    width: 10px;
+    background-color: #00d7bb;
+    border-radius: 50%;
+}
+
+.job-profile {
+    color: #00d7bb;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.organization, .job-duration {
+    font-size: larger;
+    letter-spacing: calc(1.1 * 0.1em);
+    margin-top: 8px;
+}
+
+.exp-right-section {
+    width: 35vw;
+    text-align: start;
+    text-align: justify;
+}
+
+.job-desc-title {
+    color: #00d7bb;
+    font-weight: bold;
+}

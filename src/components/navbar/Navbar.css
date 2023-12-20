@@ -1,0 +1,43 @@
+.navbar {
+    height: 8vh;
+    width: 80vw;
+    padding: 0 10vw;
+    position: fixed;
+    background: linear-gradient(to right, #17d396, #07f7f7);
+    color: white;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: ease-in-out 0.5s;
+}
+
+.nav-bg {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: ease-in-out 0.5s;
+}
+
+.pg-nav {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.pg-nav a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.profile-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-profile-item img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}

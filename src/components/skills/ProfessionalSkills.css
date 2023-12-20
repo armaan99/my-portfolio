@@ -1,0 +1,165 @@
+.skills {
+    background-color: #313741;
+    height: auto;
+    width: 80vw;
+    padding: 10vh 10vw 10vh;
+    color: white;
+}
+
+.skills-header {
+    display: flex;
+    justify-content: center;
+}
+
+.ps-header {
+    background: linear-gradient(to right, #17d396, #07f7f7);
+    width: fit-content;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.skills-section {
+    display: flex;
+    gap: 15vw;
+}
+
+.technical-skills {
+    flex: 1;
+}
+
+.professional-skills {
+    flex: 1;
+}
+
+.skill-section-title {
+    font-size: xx-large;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tech-details {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 6vh;
+}
+
+.tech-details .info {
+    position: relative;
+}
+
+.tech-name {
+    position: absolute;
+    letter-spacing: calc(1.1 * 0.1em);
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+.tech-pct {
+    position: absolute;
+    letter-spacing: calc(1.1 * 0.1em);
+    top: 8px;
+    right: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.new-tech-pct {
+    position: absolute;
+    letter-spacing: calc(1.1 * 0.1em);
+    top: -35px;
+    right: 5px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.progress-bar {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    margin: 40px 0 2px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.dot {
+    position: absolute;
+    top: -2px;
+    left: 99%;
+    height: 11px;
+    width: 11px;
+    background-color: #00d7bb;
+    border-radius: 50%;
+}
+
+.percentage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    border-radius: 10px;
+    background: #00d7bb;
+}
+
+.cpp-pct {
+    width: 0;
+    animation: fillCppPct 1s linear forwards;
+}
+
+@keyframes fillCppPct {
+    100%{
+        width: 80%;
+    }
+}
+
+.py-pct {
+    width: 0;
+    animation: fillPyPct 1s linear forwards;
+}
+
+@keyframes fillPyPct {
+    100%{
+        width: 85%;
+    }
+}
+
+.react-pct {
+    width: 0;
+    animation: fillReactPct 1s linear forwards;
+}
+
+@keyframes fillReactPct {
+    100%{
+        width: 45%;
+    }
+}
+
+.ps-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6vh 0;
+    place-items: center;
+}
+
+.ps-skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ps-circle {
+    height: 100px;
+    width: 100px;
+}
+
+.ps-skill-name {
+    margin-top: 8px;
+    letter-spacing: calc(1.1 * 0.1em);
+}
