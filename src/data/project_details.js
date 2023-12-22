@@ -35,4 +35,13 @@ export const projectDetails = [
     pTech: "React",
     pLink: "https://airbnbclonearmaan.vercel.app/",
   },
+  {
+    pTitle: "N-Queens Visualizer",
+    pDesc:
+      "Choose a board size and witness the captivating step-by-step visualization of the N-Queens problem in action.",
+    pImg_path:
+      "https://res.cloudinary.com/dr4e56agc/image/upload/v1703236768/armaan-portfolio/N-Queens_fepfuc.png",
+    pTech: "React",
+    pLink: "https://projects-by-armaan.vercel.app/n-queens",
+  },
 ];

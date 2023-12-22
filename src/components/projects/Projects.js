@@ -53,6 +53,7 @@ export default function Projects() {
               key={index}
               id={`box-${index}`}
               className="pBox"
+              data-aos-once="true"
               data-aos="zoom-in-up"
               data-aos-duration="1000"
               onMouseOver={() => {
